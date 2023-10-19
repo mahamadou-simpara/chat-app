@@ -10,9 +10,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="./javascript/main.js" defer></script>
+
     <title>ChatCord App</title>
   </head>
-  <body>
+  <body> 
     <div class="chat-container">
       <header class="chat-header">
         <h1><i class="fas fa-smile"></i> ChatCord</h1>
@@ -25,7 +28,9 @@
           <h3><i class="fas fa-users"></i> Users</h3>
           <ul id="users"></ul>
         </div>
-        <div class="chat-messages"></div>
+        <div class="chat-messages">
+        
+        </div>
       </main>
       <div class="chat-form-container">
         <form id="chat-form">
@@ -41,12 +46,6 @@
       </div>
     </div>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js"
-      integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4="
-      crossorigin="anonymous"
-    ></script>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="js/main.js"></script>
+   
   </body>
 </html>

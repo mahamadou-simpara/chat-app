@@ -1,0 +1,26 @@
+{
+  "name": "chatcord-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahamadou-simpara/chat-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahamadou-simpara/chat-app/issues"
+  },
+  "homepage": "https://github.com/mahamadou-simpara/chat-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2"
+  }
+}
